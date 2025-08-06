@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            background-color: grey;
+        }
+        img{
+            width: 400px;
+            height: 200px;
+        }
+        div{
+            display: flex;
+            justify-content: center;
+        }
+        #zdj1{
+            width: 600px;
+            height: 400px;
+        }
+        button{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="glowny"><img src="wp.jpg" id="zdj" ></div>
+    <div>
+        <button id="left" ><</button>
+
+    <img src="wp.jpg" alt="" onclick="Show('wp')" data-img="1">
+    <img src="G.jpg" alt="" onclick="Show('G')" data-img="2">
+    <img src="SuperMan.jpg" alt="" onclick="Show('SuperMan')" data-img="3">
+    <img src="tai lung.jpg" alt="" onclick="Show('tai lung')" data-img="4">
+
+    <button id="right">></button>
+    </div>
+    
+<script src="images.js"></script></body>
+
+</html>
